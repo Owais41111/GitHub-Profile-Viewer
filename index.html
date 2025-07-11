@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="Ej Logo.png">
+    <title>GitHub Profile Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="toggleMode" aria-label="Toggle dark mode">🌙</button>
+    <div class="container">
+        <h1>GitHub Profile Viewer</h1>
+        <form id="searchForm" aria-label="GitHub username search form">
+            <input type="text" id="usernameInput" placeholder="Enter GitHub username" aria-label="GitHub username">
+            <button type="submit">Search</button>
+        </form>
+        <div class="error" id="errorMessage" role="alert"></div>
+        <div class="spinner" id="spinner" style="display: none;">
+            <div></div>
+        </div>
+        <div id="profileContainer" aria-live="polite"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
