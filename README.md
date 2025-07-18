@@ -109,7 +109,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 **Your Name**  
 📧 your.email@example.com  
-🔗 [Ejaz Ahmed web](https://github.com/Owais41111/Ejaz-Ahmed)  
+🔗 [Ejaz Ahmed web](https://owais41111.github.io/Ejaz-Ahmed/)  
 🐦 [@LinkedIn](https://www.linkedin.com/in/ejaz-ahmed-602a02321/)  
 💻 [GitHub](https://github.com/Owais41111)
 
